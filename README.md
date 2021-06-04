@@ -1,23 +1,18 @@
-# Kings County Housing Bake-off
+# King County Housing Bake-off
 
-For many machine learning projects, the goal is to create a model that best predicts the target variable on unseen data. In order to develop a model, we have a general process, but there is a lot of flexibility within this process. Even when working with the same data, people can produce different models by engineering different features, or by selecting certain features to include in the models. **There is no one correct way to create a model**.
+This repo contains the materials used to predict house prices in King County, WA. Ultimately, a model was developed with a root mean square error of ~$128,000 for the training data. 
 
-For Phase 2, you will be examining data about home sales in the Seattle, Washington area to understand what factors about a home impact its price, and develop a model that will **predict the prices of homes** sold. This project will be broken up into two parts. Part one will focus on exploring the data and using different statistical tests and linear regression to understand the relationships present between the price and different features. For part 2 you will build a model that tries to predict home prices as accurately as possible. For this project there will be **5 deliverables**:
+The repo contains: 
 
-- an jupyter notebook detailing your EDA and inference process
-- a inference presentation (3 minutes)
-- a notebook showing your final modeling process
-- a CSV file of your predictions on the holdout set
-	- name this file `housing_preds_your_name.csv` (replacing `your_name` with your name) and send via Slack
-- a Github repo for this project
-
+- a jupyter notebook detailing EDA and inference process: `Three Things to Tell Outside Investors.ipynb`.
+- a jupyter notebook for feature engineering and model development: `Bakeoff_modeling_process.ipynb`.
+- a jupyter notebook to predict on holdout data: `Predict_holdout.ipynb`.
+- folder containing pickled items.
+- folder containing CSVs.
+- a inference presentation: `Phase2KingCounty.pdf`.
  
 
-## Inference Part
-
-For the first part of the project, you will try to determine what affects housing prices using exploratory data analysis, hypothesis tests, and linear regression. The goal of this analysis is to be able to come away with valuable insights regarding home prices. Imagine a real estate agent ccomes to you and asks for information about the housing market in Kings County. What would your analysis tell them that would be helpful to them as they help clients buy and sell houses? 
-
-You will give a short presentation of your insights Wednesday morning. Additionally, you will create a notebook that shows the code to determine your insights. For your presentation, you only need to include graphics and insights that you think are valuable, but for your final notebook, you must innclude the following:
+## Inference
 
 - **Exploratory Data Analysis (EDA):** You must create **at least 4 data visualizations** that help to explain the data. These visualizations should help someone unfamiliar with the data understand the target variable and the features that help explain that target variable.
 
